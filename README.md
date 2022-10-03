@@ -34,7 +34,7 @@ Note: Using colcon build is essential to set up the ROS workspace for VS to know
 
 Now we need the two files and too showcase the example, there are two beginner ROS packages included. These need to be moved to the src folder. If you have other packages then remove the ones included in this repository.
 ```bash
- git clone https://github.com/thijs83/Visual_Studio_Code_ROS.git
+ git clone https://github.com/thijs83/Visual_Studio_Code_ROS2.git
  mv -v ~/colcon_ws/Visual_Studio_Code_ROS/cpp_pubsub/ ~/colcon_ws/src
  mv -v ~/catkin_ws/Visual_Studio_Code_ROS/py_pubsub/ ~/colcon_ws/src
  mv ~/colcon_ws/Visual_Studio_Code_ROS/initialise_VSDebug.py ~/colcon_ws/
