@@ -35,10 +35,10 @@ Note: Using colcon build is essential to set up the ROS workspace for VS to know
 Now we need the two files and too showcase the example, there are two beginner ROS packages included. These need to be moved to the src folder. If you have other packages then remove the ones included in this repository.
 ```bash
  git clone https://github.com/thijs83/Visual_Studio_Code_ROS2.git
- mv -v ~/colcon_ws/Visual_Studio_Code_ROS/cpp_pubsub/ ~/colcon_ws/src
- mv -v ~/catkin_ws/Visual_Studio_Code_ROS/py_pubsub/ ~/colcon_ws/src
- mv ~/colcon_ws/Visual_Studio_Code_ROS/initialise_VSDebug.py ~/colcon_ws/
- mv ~/colcon_ws/Visual_Studio_Code_ROS/update_VSDebug.py ~/colcon_ws/
+ mv -v ~/colcon_ws/Visual_Studio_Code_ROS2/cpp_pubsub/ ~/colcon_ws/src
+ mv -v ~/catkin_ws/Visual_Studio_Code_ROS2/py_pubsub/ ~/colcon_ws/src
+ mv ~/colcon_ws/Visual_Studio_Code_ROS2/initialise_VSDebug.py ~/colcon_ws/
+ mv ~/colcon_ws/Visual_Studio_Code_ROS2/update_VSDebug.py ~/colcon_ws/
 ```
 
 Now we run the first python file to setup all the .json files in the .vscode folder. These are used by VS code to setup the environment and determine the debug settings. This script only has to run one time.
