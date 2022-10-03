@@ -36,7 +36,7 @@ Now we need the two files and too showcase the example, there are two beginner R
 ```bash
  git clone https://github.com/thijs83/Visual_Studio_Code_ROS2.git
  mv -v ~/colcon_ws/Visual_Studio_Code_ROS2/cpp_pubsub/ ~/colcon_ws/src
- mv -v ~/catkin_ws/Visual_Studio_Code_ROS2/py_pubsub/ ~/colcon_ws/src
+ mv -v ~/colcon_ws/Visual_Studio_Code_ROS2/py_pubsub/ ~/colcon_ws/src
  mv ~/colcon_ws/Visual_Studio_Code_ROS2/initialise_VSDebug.py ~/colcon_ws/
  mv ~/colcon_ws/Visual_Studio_Code_ROS2/update_VSDebug.py ~/colcon_ws/
 ```
