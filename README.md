@@ -39,6 +39,7 @@ Now we need the two files and too showcase the example, there are two beginner R
  mv -v ~/colcon_ws/Visual_Studio_Code_ROS2/py_pubsub/ ~/colcon_ws/src
  mv ~/colcon_ws/Visual_Studio_Code_ROS2/initialise_VSDebug.py ~/colcon_ws/
  mv ~/colcon_ws/Visual_Studio_Code_ROS2/update_VSDebug.py ~/colcon_ws/
+ sudo rm -r ~/colcon_ws/Visual_Studio_Code_ROS2
 ```
 
 Now we run the first python file to setup all the .json files in the .vscode folder. These are used by VS code to setup the environment and determine the debug settings. This script only has to run one time.
