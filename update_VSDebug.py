@@ -49,10 +49,6 @@ for i in package_names:
     except:
         python_executable_names = []
 
-    print(i)
-    print(python_executable_names)
-    print(cpp_executable_names)
-
 
     # Add the CPP files to the launch file
     for j in cpp_executable_names:     
